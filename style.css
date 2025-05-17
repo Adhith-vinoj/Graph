@@ -1,15 +1,56 @@
+.main-container-section{
+background-image: url('https://img.freepik.com/premium-vector/business-candle-stick-graph-chart-stock-market-investment-trading-white-background-design_41981-3730.jpg?semt=ais_hybrid&w=2000');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+
+.addgrh-section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.add-grph{
+   height: 45px;
+    width: 130px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: black;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);;
+    
+
+}
+
+.add-grph:hover{
+    background-color: rgb(39, 180, 236)
+}
+
 .second-mid{
-    border: 1px solid #ccc;
-    border-radius: 8px;
-   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
    padding: 20px;
    margin: 30px auto 0px;
    max-width:700px;
-
+   background:transparent
 }
 
 .head-section{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
    
 }
 .container{
@@ -64,6 +105,27 @@
 }
 .clr-btn:hover{
     background-color: rgba(239, 13, 13, 0.807);
+}
+
+.dlt-btn{
+     height: 40px;
+    width: 100px;
+    padding: 20px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 88, 88);
+}
+
+.dlt-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 .x-sec{
     width: 100px;
@@ -132,8 +194,12 @@
   display: grid;
   width: 700px;
   height: 500px;
+  
 }
 .grid-num{
     border: 1px solid #ccc;
+    background-color: #ffff;
+    display: flex;
+    column-gap: 5px;
 }
 
