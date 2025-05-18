@@ -1,7 +1,7 @@
 let mainConatiner = () => {
   const addingGraph = document.querySelector(".add-grph");
   const graphWrapper = document.querySelector(".graph-wrapper");
-  addingGraph.addEventListener("click", () => {
+  addingGraph.addEventListener("click ", () => {
     const graphHTML = `
           <div class="main-graphsection">
                 <div class="second-mid">
@@ -40,7 +40,7 @@ let mainConatiner = () => {
       columns: 0,
       rows: 0,
       boxColor: "#ffffff",
-      border: "1px solid #ccc",
+      border: "transparent",
       selectBoxColor: "lightgreen",
       aspectRatio: 0 / 0,
       columngap: "10px",
@@ -137,7 +137,7 @@ let mainConatiner = () => {
         const color = window.getComputedStyle(char).backgroundColor;
         if (color === "rgb(144, 238, 144)") {
           char.style.backgroundColor = "";
-          break;
+        
         }
       }
     };
