@@ -1,7 +1,7 @@
 let mainConatiner = () => {
   const addingGraph = document.querySelector(".add-grph");
   const graphWrapper = document.querySelector(".graph-wrapper");
-  addingGraph.addEventListener("click ", () => {
+  addingGraph.addEventListener("click", () => {
     const graphHTML = `
           <div class="main-graphsection">
                 <div class="second-mid">
